@@ -1,7 +1,9 @@
-# AppArmor profile for Pidgin with OTR #
+# AppArmor profile for Okular #
 
-An AppArmor profile to confine Pidgin with OTR. This profile
-is developed by the Whonix team. Pidgin is developed by pidgin.im.
+An AppArmor profile to confine Okular. This profile
+is developed by the Whonix team. Okular is developed by kde.org.
+
+For better security.
 
 (This package description has been [automatically](https://github.com/Whonix/whonix-developer-meta-files/blob/master/debug-steps/packaging-helper-script) extracted and mirrored from `debian/control`.)
 
