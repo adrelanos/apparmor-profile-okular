@@ -18,3 +18,5 @@ Depends: ${misc:Depends}, apparmor
 Description: AppArmor profile for Okular
  An AppArmor profile to confine Okular. This profile
  is developed by the Whonix team. Okular is developed by kde.org.
+ .
+ For better security.
