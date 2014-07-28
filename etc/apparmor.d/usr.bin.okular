@@ -1,0 +1,53 @@
+# Last Modified: Mon Jul 28 18:59:05 2014
+#include <tunables/global>
+
+/usr/bin/okular {
+  #include <abstractions/base>
+  #include <abstractions/user-tmp>
+  #include <abstractions/bash>
+  #include <abstractions/fonts>
+  #include <abstractions/kde>
+  #include <abstractions/gnome>
+  #include <abstractions/audio>
+  #include <abstractions/freedesktop.org>
+  #include <abstractions/user-download>
+
+  deny /etc/host.conf r,
+  deny /etc/hosts r,
+  deny /etc/nsswitch.conf r,
+  deny /etc/resolv.conf r,
+  deny /etc/passwd r,
+  deny /etc/group r,
+  deny /etc/fstab r,
+  deny /etc/rpc r,
+  deny /etc/udev/udev.conf r,
+
+  /usr/bin/okular rix,
+
+  @{HOME}/.kde/share/config/* rwk,
+  @{HOME}/.kde/share/apps/kfileplaces/* r,
+  @{HOME}/.kde/share/apps/okular/** rwk,
+  @{HOME}/.kde/share/apps/kpdf/ rwk,
+  @{HOME}/.directory r,
+  @{HOME}/packages/.directory r,
+  @{HOME}/.kde/share/apps/RecentDocuments/ r,
+  @{HOME}/.kde/share/apps/RecentDocuments/* rwk,
+
+  /usr/lib/kde4/okularpart.so mr,
+  /usr/lib/kde4/kfilemodule.so mr,
+  /usr/lib/kde4/okularGenerator_poppler.so mr,
+  ######## for the Selection tool #########
+  /usr/lib/kde4/kshorturifilter.so mr,
+  /usr/lib/kde4/kurisearchfilter.so mr,
+  /usr/lib/kde4/localdomainurifilter.so mr,
+  /usr/lib/kde4/fixhosturifilter.so mr,
+  /usr/lib/kde4/kuriikwsfilter.so mr,
+  #########################################
+
+  /usr/share/kde4/config/** r,
+  /usr/share/kde4/apps/okular/* r,
+  /usr/share/pkgconfig/shared-mime-info.pc r,
+  /usr/share/locale/ r,
+  /usr/share/poppler/** r,
+
+}

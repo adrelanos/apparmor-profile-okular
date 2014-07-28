@@ -1,0 +1,20 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: apparmor-profile-okular
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), dh-apparmor, faketime, git
+Homepage: https://www.whonix.org/wiki/AppArmor
+Vcs-Browser: https://github.com/Whonix/apparmor-profile-okular
+Vcs-Git: https://github.com/Whonix/apparmor-profile-okular.git
+Standards-Version: 3.9.4
+
+Package: apparmor-profile-okular
+Architecture: all
+Depends: ${misc:Depends}, apparmor
+Description: AppArmor profile for Okular
+ An AppArmor profile to confine Okular. This profile
+ is developed by the Whonix team. Okular is developed by kde.org.
