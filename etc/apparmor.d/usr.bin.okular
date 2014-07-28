@@ -3,13 +3,8 @@
 
 /usr/bin/okular {
   #include <abstractions/base>
-  #include <abstractions/user-tmp>
-  #include <abstractions/bash>
-  #include <abstractions/fonts>
   #include <abstractions/kde>
   #include <abstractions/gnome>
-  #include <abstractions/audio>
-  #include <abstractions/freedesktop.org>
   #include <abstractions/user-download>
 
   deny /etc/host.conf r,
