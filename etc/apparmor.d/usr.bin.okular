@@ -44,5 +44,6 @@
   /usr/share/pkgconfig/shared-mime-info.pc r,
   /usr/share/locale/ r,
   /usr/share/poppler/** r,
-
+  ## will be in abstractions/fonts some day, hopefully ##
+  /usr/share/fontconfig/** r,
 }
