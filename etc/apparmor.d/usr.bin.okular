@@ -45,5 +45,5 @@
   /usr/share/locale/ r,
   /usr/share/poppler/** r,
   ## will be in abstractions/fonts some day, hopefully ##
-  /usr/share/fontconfig/* r,
+  /usr/share/fontconfig/** r,
 }
