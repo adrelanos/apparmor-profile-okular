@@ -1,0 +1,139 @@
+commit 9ff856998c21037a3f189c88d33ba51249d2f26f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:40:31 2015 +0000
+
+    updated makefile generic to version 1.3
+
+commit f440d852736d956064600fb9f051f209b6660721
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 3 23:58:37 2015 +0000
+
+    Added creation of upstream changelog to debian/rules
+
+commit 0c6caf45b23514adf033ab38743aa7f25beb2428
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 7 19:33:35 2015 +0000
+
+    bumped compat from 8 to 9
+
+commit a6f20b55736eeb997b08236d029d795e08744ae2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 5 19:01:09 2014 +0000
+
+    updated generic makefile
+
+commit b5c73197649be4dd9240e172b523167df69f6014
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 28 22:35:17 2014 +0000
+
+    makefile: refactoring, avoid using IFS
+
+commit 87c80293c4297216b2e34253afdbc7ee61ec2c4e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 25 01:58:50 2014 +0000
+
+    makefile:
+    - make debdist; make undebdist
+    - cleanup
+    - refactoring
+
+commit 89d26699769ae453e72a8bb106bbd14f5703a334
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 23 22:43:01 2014 +0000
+
+    makefile:
+    - new target "make undist", which deletes the upstream tarball
+    - $DISTDIR variable for make (un)dist, which defaults to ".." and can be used to create upstream tarballs in arbitrary locations
+    - refactoring, all function names and global variables now start with "make_" to make the script `source`ing friendly
+    - made `source`able
+
+commit c006bb4804c3b5552c172b80a5450a8d3b7290e6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 13 12:36:51 2014 +0000
+
+    readme
+
+commit 2d00f905219bf8c82699897c84897e6c31f5cd29
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 31 00:43:15 2014 +0000
+
+    bump changelog version
+
+commit 5c1fede63415f9bb15720397f990fe5eda5f76f5
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Aug 30 20:16:57 2014 +0000
+
+    New denied message
+
+commit ea7a5d6fd3a5c2efa34ea812e9a5d56d04428e72
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 19 18:52:35 2014 +0000
+
+    makefile: added new feature "make deb-chl-bumpup" - Bump upstream version number in debian/changelog.
+
+commit 94d00eba7b946fcc7fbd01abcad9c48b39d99087
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:54:22 2014 +0000
+
+    Updated debian/changelog.
+
+commit b16b0fb51d59d1a59abd088af306766f1e5523ca
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:47:25 2014 +0000
+
+    Fixed changelog date.
+
+commit 0e6d089e216acc970c9702b2d14afa775d891500
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 18:03:24 2014 +0000
+
+    bump version number
+
+commit 612274d3e3ca2ed877393c2707d98a6e1180e8b5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 14 13:35:14 2014 +0000
+
+    Implemented make deb-icup: Combination of make deb-pkg, make deb-pkg-install and make deb-pkg-cleanup.
+
+commit 955ce30409fba4aeb3f0757716659416d19786c9
+Merge: 6d6d1fb d7e28c5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jul 29 22:20:37 2014 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit d7e28c5026ee0e2e8e0ff878d6c9a2a7b1abaa6c
+Author: troubadoour <trobador@riseup.net>
+Date:   Tue Jul 29 07:28:24 2014 +0000
+
+    /usr/share/fontconfig/** r,
+
+commit 9df7e5422f2f38c4306a394146ff6aa503022f7e
+Author: troubadoour <trobador@riseup.net>
+Date:   Tue Jul 29 07:20:36 2014 +0000
+
+    /usr/share/fontconfig/
+
+commit 6d6d1fbed838567965eb58be261356735da7dee3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jul 28 23:19:52 2014 +0000
+
+    packaging
+
+commit 383fe3ba9024802e892373ffdd36b3d19a00feeb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jul 28 22:53:25 2014 +0000
+
+    packaging
+
+commit ef70ade332180c17f9dd46ab5568d4a8483788ab
+Author: troubadoour <trobador@riseup.net>
+Date:   Mon Jul 28 20:59:41 2014 +0000
+
+    removed some abstractions
+
+commit 714144a423ce4dcb09be407da50a59c3e682644c
+Author: troubadoour <trobador@riseup.net>
+Date:   Mon Jul 28 20:42:21 2014 +0000
+
+    Initial release
