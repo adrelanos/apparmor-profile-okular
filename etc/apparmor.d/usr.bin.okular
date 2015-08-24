@@ -17,35 +17,39 @@
   deny /etc/rpc r,
   deny /etc/udev/udev.conf r,
 
-  /proc/sys/vm/overcommit_memory r,
-
-  /usr/bin/okular rix,
+  deny @{HOME}/.local/share/Trash/ r,
+  deny @{HOME}/.local/share/Trash/** r,
 
   @{HOME}/.kde/share/config/* rwk,
   @{HOME}/.kde/share/apps/kfileplaces/* r,
+  @{HOME}/.kde/share/apps/okular/ rwk,
   @{HOME}/.kde/share/apps/okular/** rwk,
   @{HOME}/.kde/share/apps/kpdf/ rwk,
   @{HOME}/.directory r,
   @{HOME}/packages/.directory r,
   @{HOME}/.kde/share/apps/RecentDocuments/ r,
   @{HOME}/.kde/share/apps/RecentDocuments/* rwk,
+  @{HOME}/.kde/socket-work/kdeinit4__0 rwk,
+  @{HOME}/.kde/share/apps/kconf_update/ r,
+  @{HOME}/.local/share/user-places.xbel r,
 
-  /usr/lib/kde4/okularpart.so mr,
-  /usr/lib/kde4/kfilemodule.so mr,
-  /usr/lib/kde4/okularGenerator_poppler.so mr,
-  ######## for the Selection tool #########
-  /usr/lib/kde4/kshorturifilter.so mr,
-  /usr/lib/kde4/kurisearchfilter.so mr,
-  /usr/lib/kde4/localdomainurifilter.so mr,
-  /usr/lib/kde4/fixhosturifilter.so mr,
-  /usr/lib/kde4/kuriikwsfilter.so mr,
-  #########################################
+  /usr/lib/** mr,
 
-  /usr/share/kde4/config/** r,
-  /usr/share/kde4/apps/okular/* r,
-  /usr/share/pkgconfig/shared-mime-info.pc r,
-  /usr/share/locale/ r,
-  /usr/share/poppler/** r,
-  ## will be in abstractions/fonts some day, hopefully ##
-  /usr/share/fontconfig/** r,
+  /usr/bin/okular rix,
+  /usr/bin/kactivitymanagerd rix,
+  /usr/bin/kdeinit4 rix,
+  /usr/bin/kbuildsycoca4 rix,
+  /usr/share/ r,
+  /usr/share/** r,
+  /etc/xdg/menus/ r,
+  /etc/xdg/menus/** r,
+
+  @{PROC}/[0-9]*/cmdline r,
+  @{PROC}/[0-9]*/fd/ r,
+  @{PROC}/sys/vm/overcommit_memory r,
+
+  ## TODO: might be possible / make sense to deny those
+  /etc/xdg/Trolltech.conf rk,
+  /var/lib/dbus/machine-id r,
+  /etc/machine-id r,
 }
