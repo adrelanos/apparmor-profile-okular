@@ -16,7 +16,7 @@
   deny /etc/fstab r,
   deny /etc/rpc r,
   deny /etc/udev/udev.conf r,
-  
+
   /proc/sys/vm/overcommit_memory r,
 
   /usr/bin/okular rix,
