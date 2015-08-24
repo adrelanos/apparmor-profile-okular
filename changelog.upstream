@@ -1,3 +1,21 @@
+commit 020299e5b80f3ddf5cda5310a5e28251a65a2547
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Aug 24 16:15:05 2015 +0000
+
+    jessie / Qubes specific fixes
+
+commit 5fed6f23b63da3755ae25a8d8182230c2e4c52d9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Aug 24 15:38:07 2015 +0000
+
+    removed trailing spaces
+
+commit 970f72bbdd463d880f4b791e197abd26ef39e9db
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 3 14:59:25 2015 +0000
+
+    bumped changelog version
+
 commit b80e9dfa1d8ef8114f4ebb3ee10a2b3e30975771
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 30 17:56:04 2015 +0000
