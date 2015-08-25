@@ -40,7 +40,9 @@
   /usr/bin/kdeinit4 rix,
   /usr/bin/kbuildsycoca4 rix,
   /usr/share/ r,
-  /usr/share/** r,
+  /usr/share/kde4/** r,
+  /usr/share/poppler/** r,
+  /usr/share/locale/ r,
   /etc/xdg/menus/ r,
   /etc/xdg/menus/** r,
 
