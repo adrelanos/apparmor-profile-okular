@@ -1,3 +1,22 @@
+commit bdf29659e07060206bb2392a7606b0eb5e590532
+Merge: db58e9d 2e04811
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 21:43:20 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 2e04811b4b198d56d76c9e619e29161691c11e87
+Author: troubadoour <trobador@riseup.net>
+Date:   Tue Aug 25 18:51:29 2015 +0000
+
+    narrow permissions in /usr/share
+
+commit db58e9db67faae25a56e2cc6d125e4b07a2f31f7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 14:07:51 2015 +0000
+
+    bumped changelog version
+
 commit 71fb5f771d6730e6b01a631e141a43ffc4246661
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Aug 24 17:47:16 2015 +0000
