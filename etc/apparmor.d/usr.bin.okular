@@ -7,6 +7,8 @@
   #include <abstractions/gnome>
   #include <abstractions/user-download>
 
+  deny network raw,
+
   deny /etc/host.conf r,
   deny /etc/hosts r,
   deny /etc/nsswitch.conf r,
