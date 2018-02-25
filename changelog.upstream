@@ -1,3 +1,22 @@
+commit 2996aa445c18842090c48a86e8dd4514af5af951
+Merge: 684a195 cc47fef
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Feb 25 03:58:26 2018 +0100
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit cc47fef3aeddad2abaec9845692149a2464dcbcf
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Feb 24 20:15:27 2018 +0000
+
+    +  deny network raw,
+
+commit 684a1954ad043b1ebdb4624c9b3deadc07ae17bb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 1 14:54:24 2018 +0000
+
+    bumped changelog version
+
 commit 9d2ab8290629444e74810327711e726a3f49515d
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Jan 29 15:50:14 2018 +0000
